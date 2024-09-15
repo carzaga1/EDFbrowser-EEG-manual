@@ -10,7 +10,7 @@ I have added an example EEG (sample.edf-file*) to the research drive
 > 2. Double click on the .edf file contatined in the folder, this should automatically launch EDFBrowser
         
   You should see the following on your computer screen:
-  ![EDFBrowserLaunch](../EDFbrowserDocumentation/edf-launch.png "EDFLaunch")
+  ![EDFBrowserLaunch](..images\edf-launch.png "EDFLaunch")
   <figcaption>
   You might see an annotations loading box window occasionaly, if this takes longer than 30 sec. you can go ahead and close the window
   </figcaption>
