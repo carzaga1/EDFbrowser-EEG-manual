@@ -3,7 +3,7 @@
 
 title: EDFbrowser Documentation
 author: Carlos Arzaga
-logo: logoEDFeeg.jpg
+logo: images\logo\edf-eeg-logo.jpg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

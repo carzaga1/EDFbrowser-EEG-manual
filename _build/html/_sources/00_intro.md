@@ -1,6 +1,6 @@
 # Introduction
 
-## Welcome to Annotating  & Anonymizing EEG Data with EDFbrowser
+## Welcome to Annotating & Anonymizing EEG Data with EDFbrowser
 
 This is an introduction to annotating EEG data with EDFbrowser.
 

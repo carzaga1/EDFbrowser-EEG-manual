@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = '04_loading-data';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Annotating Bursts in EEGs using EDFbrowser" href="05_annotating.html" />
     <link rel="prev" title="Installation and Setup of EDFbrowser" href="03_install-edfbrowser.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -152,8 +153,8 @@
       
     
     
-    <img src="_static/logoEDFeeg.jpg" class="logo__image only-light" alt="EDFbrowser Documentation - Home"/>
-    <script>document.write(`<img src="_static/logoEDFeeg.jpg" class="logo__image only-dark" alt="EDFbrowser Documentation - Home"/>`);</script>
+    <img src="_static/edf-eeg-logo.jpg" class="logo__image only-light" alt="EDFbrowser Documentation - Home"/>
+    <script>document.write(`<img src="_static/edf-eeg-logo.jpg" class="logo__image only-dark" alt="EDFbrowser Documentation - Home"/>`);</script>
   
   
 </a></div>
@@ -183,6 +184,8 @@
 <li class="toctree-l1"><a class="reference internal" href="02_rules-for-burst-annotation.html">Rules for Burst Annotation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03_install-edfbrowser.html">Installation and Setup of EDFbrowser</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Loading EDF Files and Montages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05_annotating.html">Annotating Bursts in EEGs using EDFbrowser</a></li>
+
 </ul>
 
     </div>
@@ -404,7 +407,7 @@ document.write(`
 </ol>
 </div></blockquote>
 <p>You should see the following on your computer screen:
-<img alt="EDFBrowserLaunch" src="_images/edf-launch.png" /></p>
+<img alt="EDFBrowserLaunch" src="images%5Cedf-launch.png" /></p>
   <figcaption>
   You might see an annotations loading box window occasionaly, if this takes longer than 30 sec. you can go ahead and close the window
   </figcaption>
@@ -413,28 +416,42 @@ document.write(`
 </div>
 <!-- ![Launching EDFviewer gif](edflaunch.webp "EDFLaunch") -->
 <figure>
-    <img src="C:\Users\c_arz\Documents\KISPI\Burst_Suppression_Project\EDFbrowserDocumentation\EDFlaunch.gif"
-         alt="EDFlaunch.gif"
+    <img src="images\edf-launch.gif"
+         alt="edf-launch.gif"
          width="639" height="360">
 </figure>
 <video width="720" height="405" autoplay controls>
-    <source src="C:\Users\c_arz\Documents\KISPI\Burst_Suppression_Project\EDFbrowserDocumentation\EDFlaunch.mp4" type="video/mp4">
+    <source src="images\edf-launch.mp4" 
+    type="video/mp4">
 </video>
 </section>
 <section id="loading-montages">
 <h2>Loading Montages<a class="headerlink" href="#loading-montages" title="Link to this heading">#</a></h2>
 <p>Now that the file is loaded with the raw EEG signals, one needs to create a montage for them to actually be viewable on the screen.</p>
-<p>The creation of Montages is explained in the following documentation <strong>TO DO: add link to ‘Creating Montage Section of book’</strong></p>
-<p>I have already created some of the standard montages based on the American Clinical Neurophysiology Society <a class="reference external" href="https://www.acns.org/UserFiles/file/EEGGuideline3Montage.pdf" title="ACNS">ACNS</a> EEG guidelines.</p>
+<p>The creation of Montages is explained in the following documentation  <strong>TO DO: add link to ‘Creating Montage Section of book’</strong></p>
+<p>I have already created some of the standard montages based on the American Clinical Neurophysiology Society <a class="reference external" href="https://www.acns.org/UserFiles/file/EEGGuideline3Montage.pdf" title="ACNS">(ACNS)</a> EEG guidelines.</p>
 <p>This section will walk through how to load and save the previously created montages and additional tips on ‘binding’ as keyboard hotkeys</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>The created montage files are located in the following folder <strong>TO DO: Add path to montages location</strong></p></li>
-<li><p>With EDFviewer open and EEG file loaded select the ‘<em>Montage</em>’ tab and select ‘<em>Load</em>’</p></li>
-<li><p>Navigate to the <strong>TO DO: add Montage file path</strong></p></li>
+<li><p>The created montage files are located within the created ‘Montages’ folder (e.g. “C:\Users\Desktop\Archemides_BSUPP\Montages”)</p></li>
+<li><p>With EDFviewer open and EEG file loaded select the ‘<strong>Montage</strong>’ tab and select ‘<strong>Load</strong>’</p></li>
+<li><p>Navigate to the Montages folder</p></li>
 <li><p>Select the montage file</p></li>
 </ol>
 </div></blockquote>
+<video width="720" height="405" autoplay controls>
+    <source src="images\edf-montages.mp4" 
+    type="video/mp4">
+</video>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>text</p>
+<ol class="arabic simple">
+<li><p><strong>To Do: Add tips</strong></p></li>
+<li><p><strong>2nd Tip</strong></p></li>
+<li><p><strong>3rd Tip</strong></p></li>
+</ol>
+</div>
 </section>
 </section>
 
@@ -476,6 +493,15 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Installation and Setup of EDFbrowser</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="05_annotating.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Annotating Bursts in EEGs using EDFbrowser</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
