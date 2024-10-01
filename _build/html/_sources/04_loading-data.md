@@ -14,17 +14,19 @@ I have added an example EEG (sample.edf-file*) to the research drive
   <figcaption>
   You might see an annotations loading box window occasionaly, if this takes longer than 30 sec. you can go ahead and close the window
   </figcaption>
-  
-       **TO DO: resize (make larger) gif of annotations window**
 
-[code below works/straight forward markdown]: #
+
+[code below works/straight forward markdown]:#
 <!-- ![Launching EDFviewer gif](edflaunch.webp "EDFLaunch") -->
 
+[code below works/straight forward html]:#
+<!--
 <figure>
-    <img src="images\edf-launch.gif"
-         alt="edf-launch.gif"
-         width="639" height="360">
-</figure>
+  <img src="images\edf-launch.gif"]
+          alt="edf-launch.gif"
+          width="639" # height="360">]
+ </figure>
+ -->
 
 <video width="720" height="405" autoplay controls>
     <source src="images\edf-launch.mp4" 
