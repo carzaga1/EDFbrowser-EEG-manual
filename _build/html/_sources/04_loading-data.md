@@ -56,7 +56,7 @@ This section will walk through how to load and save the previously created monta
 
 ```{tip} text
 1. **To Do: Add tips**
-2. **2nd Tip**
+2. **This has now changed**
 3. **3rd Tip**
 ```
 
