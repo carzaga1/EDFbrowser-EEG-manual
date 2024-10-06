@@ -19,6 +19,8 @@ There are two ways to activate the crosshairs:
 ```{Tip}
 While labelling burst one can leave the Description text filled in and the double crosshairs visisble, scroll through the EEG (changing only duration onset) to make the Burst labelling faster
 ```
+> 5. To save the annotations simply go to File -> Save -> Save in folder of desired location.  It is recommended that the EEG file being annotated be renamed (e.g. PAT001_annotated).  In that way the original file without annotations is kept, and a sperate annotated file is produced.
+
 TO DO: CHANGE VIDEO BELOW 
 <video width="720" height="405" autoplay controls>
     <source src="" 
@@ -26,4 +28,4 @@ TO DO: CHANGE VIDEO BELOW
 </video>
 - Common Challenges and How to Overcome Them
 
-- Annotating a Sample EEG File (Link to Example File)
+- **This has now changed**
