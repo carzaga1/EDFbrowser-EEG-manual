@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Installation and Setup of EDFbrowser &#8212; EDFbrowser Documentation</title>
+    <title>Creating EEG Montages using EDFbrowser &#8212; EDFbrowser Documentation</title>
   
   
   
@@ -57,11 +57,9 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '03_install-edfbrowser';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '06_montages';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Loading EDF Files and Montages" href="04_loading-data.html" />
-    <link rel="prev" title="Rules for Burst Annotation" href="02_rules-for-burst-annotation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -124,6 +122,8 @@
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -179,10 +179,10 @@
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
+        <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="01_background.html">Background</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02_rules-for-burst-annotation.html">Rules for Burst Annotation</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Installation and Setup of EDFbrowser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_install-edfbrowser.html">Installation and Setup of EDFbrowser</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04_loading-data.html">Loading EDF Files and Montages</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_annotating.html">Annotating Bursts in EEGs using EDFbrowser</a></li>
 </ul>
@@ -256,7 +256,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F03_install-edfbrowser.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F06_montages.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -286,7 +286,7 @@
       
       
       
-      <li><a href="_sources/03_install-edfbrowser.md" target="_blank"
+      <li><a href="_sources/06_montages.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +368,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Installation and Setup of EDFbrowser</h1>
+    <h1>Creating EEG Montages using EDFbrowser</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -382,30 +382,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="installation-and-setup-of-edfbrowser">
-<h1>Installation and Setup of EDFbrowser<a class="headerlink" href="#installation-and-setup-of-edfbrowser" title="Link to this heading">#</a></h1>
-<ul class="simple">
-<li><p>System Requirements</p>
-<ul>
-<li><p><strong>NONE, no special requirements or dependencies needed</strong></p></li>
-</ul>
-</li>
-<li><p>Downloading EDFbrowser for <strong>&lt;/Windows 64-bit&gt;</strong></p></li>
-</ul>
-<blockquote>
-<div><ol class="arabic simple">
-<li><p>Click on this link <a class="reference external" href="https://www.teuniz.net/edfbrowser/">EDFbrowser</a></p></li>
-<li><p>Scroll down and download the zip file.</p></li>
-</ol>
-</div></blockquote>
-<p><img alt="EDFBrowserDwnld" src="images%5Cedf-dwnld-zip.png" /></p>
-<blockquote>
-<div><ol class="arabic simple" start="3">
-<li><p>Follow EDFbrowsers download wizard instructions.</p></li>
-</ol>
-</div></blockquote>
-<p><img alt="EDFBrowserWzrd" src="images%5Cedf-dwnld-wizard.png" /></p>
-<p>After a successfull install you should be now ready to start annotating and anonymizing EEG data!</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="creating-eeg-montages-using-edfbrowser">
+<h1>Creating EEG Montages using EDFbrowser<a class="headerlink" href="#creating-eeg-montages-using-edfbrowser" title="Link to this heading">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
@@ -438,24 +416,6 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="02_rules-for-burst-annotation.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Rules for Burst Annotation</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="04_loading-data.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Loading EDF Files and Montages</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               

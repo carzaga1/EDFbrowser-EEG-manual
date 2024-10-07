@@ -54,10 +54,10 @@ This section will walk through how to load and save the previously created monta
 </video>
 
 
-```{tip} text
-1. **To Do: Add tips**
-2. **This has now changed**
-3. **3rd Tip**
+```{tip}
+To add a montage as a **hot-key** select **Montage**->**Edit key-bindings for Montages** then select an available (blank) desired hot-key (e.g. F1:,F2:, etc.) click **Edit** finally select the montage file you want to bind.
+
+Now the next time you load and want to view an EEG file you can simply click the bounded hot-key with your desired montage.
 ```
 
 
