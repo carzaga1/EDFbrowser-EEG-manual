@@ -11,14 +11,17 @@ The onset and the duration of a annotation must be manually entered.  Additional
 ```
 > 3. Use 'crosshairs' to set the start and end of annotations.  
 There are two ways to activate the crosshairs:
-    >> 1. Left-click on the channel of interest, from the    pop-up menu select *Crosshair*. \
+    >> - Left-click on the channel of interest, from the    pop-up menu select *Crosshair*. \
     or
-    >> 2. Use the short key by pressing Alt+Shift+C ; the crosshairs can be moved by simply dragging and dropping the crosshair to the desired position. \
+    >> - Use the short key by pressing Alt+Shift+C ; the crosshairs can be moved by simply dragging and dropping the crosshair to the desired position. \
     Lastly a second crosshair can be activated by the same steps as before.  The second crosshair will provide a difference (delta) in time from the first crosshair.
+
 > 4. With the crosshairs set to the desired 'start' and 'end' times and description filled out click the *Create* button to enter the annotation.
+
 ```{Tip}
 While labelling burst one can leave the Description text filled in and the double crosshairs visisble, scroll through the EEG (changing only duration onset) to make the Burst labelling faster
 ```
+
 > 5. To save the annotations simply go to File -> Save -> Save in folder of desired location.  It is recommended that the EEG file being annotated be renamed (e.g. PAT001_annotated).  In that way the original file without annotations is kept, and a sperate annotated file is produced.
 
 TO DO: CHANGE VIDEO BELOW 
