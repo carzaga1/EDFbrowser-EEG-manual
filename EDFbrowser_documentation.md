@@ -40,7 +40,7 @@
 ## Examples and Practice
 - Step-by-Step Example of Annotating Bursts in an EEG
 - Common Challenges and How to Overcome Them
-- Annotating a Sample EEG File (Link to Example File)
+- Annotating a Sample EEG File (To Do: Link to Example File)
 
 ## Conclusion
 - Summary of Key Points
