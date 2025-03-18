@@ -6,7 +6,7 @@
 > 1. Click on this link [EDFbrowser](https://www.teuniz.net/edfbrowser/)
 > 2. Scroll down and download the zip file.
 
-![EDFBrowserDwnld](images\edf-dwnld-zip.png "EDFBrowserDwnld")
+[EDFBrowserDwnld](images\edf-dwnld-zip.png "EDFBrowserDwnld")
 
 > 3. Follow EDFbrowsers download wizard instructions.
 
