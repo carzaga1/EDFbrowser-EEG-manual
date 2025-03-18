@@ -18,7 +18,7 @@ The main goal of this resource is to help
 
 in the form of interactive tutorials.
 
-For a further software check out [the EDFbrowser online manual](https://www.teuniz.net/edfbrowser/EDFbrowser%20manual.html#Annotation_editor) for more information.
+For specific software details always refer to the [EDFbrowser online manual](https://www.teuniz.net/edfbrowser/EDFbrowser%20manual.html#Annotation_editor).
 
 
 ```{tableofcontents}
