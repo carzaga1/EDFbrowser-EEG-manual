@@ -10,7 +10,7 @@ I have added an example EEG (sample.edf-file*) to the research drive
 > 2. Double click on the .edf file contatined in the folder, this should automatically launch EDFBrowser
         
   You should see the following on your computer screen:
-  ![EDFBrowserLaunch](images\edf-launch.png "EDFLaunch")
+  ![EDFBrowserLaunch](images/edf-launch.png "EDFLaunch")
   <figcaption>
   You might see an annotations loading box window occasionaly, if this takes longer than 30 sec. you can go ahead and close the window
   </figcaption>
@@ -29,7 +29,7 @@ I have added an example EEG (sample.edf-file*) to the research drive
  -->
 
 <video width="720" height="405" autoplay controls>
-    <source src="images\edf-launch.mp4" 
+    <source src="images/edf-launch.mp4" 
     type="video/mp4">
 </video>
        
@@ -49,7 +49,7 @@ This section will walk through how to load and save the previously created monta
 >  4. Select the montage file
 
 <video width="720" height="405" autoplay controls>
-    <source src="images\edf-montages.mp4" 
+    <source src="images/edf-montages.mp4" 
     type="video/mp4">
 </video>
 
